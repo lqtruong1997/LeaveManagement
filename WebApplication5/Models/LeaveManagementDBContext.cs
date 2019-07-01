@@ -2,9 +2,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace WebApplication5.Models
+namespace LeaveManagementSPA.Models
 {
-    public partial class TestDBContext : DbContext
+    public partial class LeaveManagementDBContext : DbContext
     {
         public virtual DbSet<LeaveRequests> LeaveRequests { get; set; }
         public virtual DbSet<Users> Users { get; set; }

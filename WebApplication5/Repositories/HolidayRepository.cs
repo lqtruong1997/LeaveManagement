@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LeaveManagementSPA.Models;
 
-namespace WebApplication5.Models
+namespace LeaveManagementSPA.Repositories
 {
-    public class HolidayDataAccessLayer
+    public class HolidayRepository
     {
-        private readonly TestDBContext _db = new TestDBContext();
+        private readonly LeaveManagementDBContext _db = new LeaveManagementDBContext();
 
         public IEnumerable<Holiday> GetUpcomingHoliday(int numberOfHoliday)
         {

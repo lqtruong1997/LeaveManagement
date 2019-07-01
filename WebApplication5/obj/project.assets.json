@@ -12538,9 +12538,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\trle\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
-      "projectName": "WebApplication5",
-      "projectPath": "C:\\Users\\trle\\source\\repos\\WebApplication5\\WebApplication5\\WebApplication5.csproj",
+      "projectUniqueName": "C:\\Users\\trle\\source\\repos\\WebApplication5\\WebApplication5\\LeaveManagementSPA.csproj",
+      "projectName": "LeaveManagementSPA",
+      "projectPath": "C:\\Users\\trle\\source\\repos\\WebApplication5\\WebApplication5\\LeaveManagementSPA.csproj",
       "packagesPath": "C:\\Users\\trle\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\trle\\source\\repos\\WebApplication5\\WebApplication5\\obj\\",
       "projectStyle": "PackageReference",

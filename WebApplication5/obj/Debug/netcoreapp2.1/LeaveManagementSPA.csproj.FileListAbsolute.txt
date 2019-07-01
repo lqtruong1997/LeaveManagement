@@ -1,0 +1,14 @@
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.1\LeaveManagementSPA.deps.json
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.1\LeaveManagementSPA.runtimeconfig.json
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.1\LeaveManagementSPA.runtimeconfig.dev.json
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.1\LeaveManagementSPA.dll
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\bin\Debug\netcoreapp2.1\LeaveManagementSPA.pdb
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.csprojAssemblyReference.cache
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.csproj.CoreCompileInputs.cache
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.RazorAssemblyInfo.cache
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.RazorAssemblyInfo.cs
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.AssemblyInfoInputs.cache
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.AssemblyInfo.cs
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.RazorTargetAssemblyInfo.cache
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.dll
+C:\Users\trle\source\repos\WebApplication5\WebApplication5\obj\Debug\netcoreapp2.1\LeaveManagementSPA.pdb

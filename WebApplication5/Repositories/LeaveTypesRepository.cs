@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LeaveManagementSPA.Models;
 
-namespace WebApplication5.Models
+namespace LeaveManagementSPA.Repositories
 {
-    public class LeaveTypesDataAccessLayer
+    public class LeaveTypesRepository
     {
-        private readonly TestDBContext _db = new TestDBContext();
+        private readonly LeaveManagementDBContext _db = new LeaveManagementDBContext();
 
         public IEnumerable<LeaveTypes> GetLeaveTypes()
         {

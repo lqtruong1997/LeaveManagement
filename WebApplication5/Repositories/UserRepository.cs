@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using LeaveManagementSPA.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication5.Models
+namespace LeaveManagementSPA.Repositories
 {
-    public class UserDataAccessLayer
+    public class UserRepository
     {
-        private readonly TestDBContext _db = new TestDBContext();
+        private readonly LeaveManagementDBContext _db = new LeaveManagementDBContext();
 
         public Users GetUserById(string id)
         {

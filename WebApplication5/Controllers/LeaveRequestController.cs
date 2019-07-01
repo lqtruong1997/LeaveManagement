@@ -5,24 +5,26 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using WebApplication5.Models;
-using WebApplication5.Service;
+using LeaveManagementSPA.Models;
+using LeaveManagementSPA.Repositories;
+using LeaveManagementSPA.ViewModels;
 
-namespace WebApplication5.Controllers
+namespace LeaveManagementSPA.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class LeaveRequestController : ControllerBase
     {
-        private readonly LeaveRequestDataAccessLayer _leaveRequest = new LeaveRequestDataAccessLayer();
-        private readonly LeaveTypesDataAccessLayer _leaveTypes = new LeaveTypesDataAccessLayer();
-        private readonly LeaveRequestDTOService _leaveRequestDto = new LeaveRequestDTOService();
+        private readonly LeaveRequestRepository _leaveRequest = new LeaveRequestRepository();
+        private readonly LeaveTypesRepository _leaveTypes = new LeaveTypesRepository();
 
         [HttpGet]
         [Route("GetLeaveRequest")]
-        public IEnumerable<LeaveRequestDTO> GetLeaveRequests(string startDate, string endDate, int leaveTypeId)
+        public IEnumerable<LeaveRequestViewModels> GetLeaveRequests(string startDate, string endDate, int leaveTypeId)
         {
-            return _leaveRequestDto.GetLeaveRequests(startDate, endDate, leaveTypeId);
+            var leaveRequests = _leaveRequest.GetLeaveRequests(startDate, endDate, leaveTypeId);
+
+            return leaveRequests.Select(leaveRequest => new LeaveRequestViewModels(leaveRequest)).ToList();
         }
 
         [HttpGet]

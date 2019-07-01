@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WebApplication5": {
+    "LeaveManagementSPA": {
       "commandName": "Project",
       "launchBrowser": false,
       "launchUrl": "api/values",
